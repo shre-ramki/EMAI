@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600&display=swap');
+*{
+  font-family: "Signika";
+  font-size: medium;
+  align-content: center;
+  box-sizing: border-box;
+}
+header {
+    overflow: hidden;
+    background-color: #e7e0e0;
+    margin-top:0px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+  }
+  
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .header a:hover {
+    background-color: rgb(150, 145, 145);
+    color: black;
+  }
+  
+  .header a.active {
+    background-color: rgb(140, 142, 143);
+    color: white;
+  }
+/* Adding background color and aligning the content */
+  .dialogbox {
+    background-color:#CEF6FF;
+    padding: 5px 10px 5px 10px;
+    height:220px;
+    width:530px;
+    align-content: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  /* Styling the submit button */
+  .Submit{
+    color:white;
+    background-color: gray;
+    border: 2px;
+    padding:7px;
+    outline:none;
+    border-radius: 6px;
+    
+  }
+
+  .clear{
+    color: #0066cc;
+  
+    font-weight:500;
+    background-color: white;
+    border: 2px;
+    padding:7px;
+    outline:none;
+  }
+
+   button:hover{
+      background-color:darkgrey
+   }
+
+/* Styling the input attribute  */
+  .Email1{
+    border: 2px solid gray;
+    border-radius: 6px;
+    outline: none;
+    width: 50%;
+    margin: 11px 0px;
+    padding: 7px;
+  }
+  .age{
+    margin:none;
+    padding:none;
+    width:none;
+  }
+  .text{
+    border: 2px solid gray;
+    border-radius: 6px;
+    outline: none;
+    width: 300px;
+    margin: 11px 0px;
+    padding: 7px;
+  }
+  .Box{
+    background-color: #DDF0EA;
+    border:0px;
+    width:2px;
+    height:13mm;
+    padding:5px 10px;
+    margin:0px 0px 0px 470px;
+    float:left;
+}
+
+.img1{
+  background-color: #dddddd;
+  border:0px;
+  width:250px;
+  height:350px;
+  margin-right:auto;
+  margin-left:470px;
+  padding:0px 0px;
+  float:left;
+}
+
+.img2{
+  background-color: #dddddd;
+  border:0px;
+  width:250px;
+  height:200px;
+  margin-right: auto;
+  margin-left: 470px;
+  padding:0px 0px;  
+  float:left;
+}
+pre,p{
+  margin:0px 0px 0px 470px;
+  font-weight: 300;
+  font-size: small;
+}
+form {
+  margin-left:470px;
+}
+
+b{
+  font-weight: 400;
+  font-size: large;
+}
+.mySlides 
+{
+  display:none;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 700px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+label{
+  text-align: right;
+}
